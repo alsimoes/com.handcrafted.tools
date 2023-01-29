@@ -22,8 +22,10 @@ namespace Handcrafted
         {
             var fullPath = Combine(dataPath, root);
 
-            foreach (var dir in dirs) 
+            foreach (var dir in dirs)
+            {
                 CreateDirectory(Combine(fullPath, dir));
+            }
         }
     }
 }
