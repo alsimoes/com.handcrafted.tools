@@ -1,9 +1,12 @@
 {
 	"name":"com.handcrafted.tools",
 	"version":"0.0.1-alpha.1",
-	"displayName":"Handcrafted Tool's",
+	"displayName":"Handcrafted Tools",
 	"description":"Package of tools for the Unity Editor or games made by the Handcrafted Team and collaborators.",
 	"unity":"2019.1",
+	"dependencies": {
+	},
+	"keywords": ["library","utility","strings","bulky rename"],
 	"author": {
 		"name": "André Simões",
 		"email": "developer@alsimoes.net",
